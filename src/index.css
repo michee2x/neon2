@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .page {
+        @apply bg-seasalt-300 w-screen min-h-screen overflow-x-hidden relative;
+    }
+
+    .mask-clip-path {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
